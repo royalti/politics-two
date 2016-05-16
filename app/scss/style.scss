@@ -1,0 +1,53 @@
+@import 'base';
+@import 'tipography';
+
+.container {
+	max-width: 900px;
+}
+
+.container-navbar {
+	padding: 15px;
+}
+
+.navbar-brand {
+	font-family: $font-padrao;
+	font-weight: 700;
+}
+
+.navbar-brand-highlight {
+	color: $cor-base;
+}
+
+#navbar {
+	font-family: $font-padrao;
+}
+
+.perfil-image {
+	margin-top: 80px;
+}
+
+.frase {
+	color: $cor-base;
+	font-family: $font-padrao;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+
+.posts {
+	padding-top: 20px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+    h3 {
+    	a {
+    		color: $cor-cinza;
+    	}
+    }
+}
+
+.footer {
+	color: $cor-terceira;
+	background: $cor-base;
+	padding: 20px 0;
+}
