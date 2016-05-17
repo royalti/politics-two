@@ -10,6 +10,7 @@
 }
 
 .navbar-brand {
+	color: $cor-terceira;
 	font-family: $font-padrao;
 	font-weight: 700;
 }
@@ -22,6 +23,17 @@
 	font-family: $font-padrao;
 }
 
+#navbar-direita {
+	li{
+		a {
+			color: $cor-base;
+		}
+		a:hover {
+			color: $cor-secundaria;
+		}
+	}
+}
+
 .perfil-image {
 	margin-top: 80px;
 }
@@ -30,7 +42,7 @@
 	color: $cor-base;
 	font-family: $font-padrao;
 	border-bottom: 1px solid #CCC;
-	padding-bottom: 10px;
+	padding: 0 10px 10px 10px;
 }
 
 .posts {
@@ -42,11 +54,11 @@
     h3 {
     	font-weight: bold;
     	a {
-    		color: $cor-cinza;
+    		color: $cor-base;
     	}
     	a:hover {
     		text-decoration: none;
-    		color: $cor-base;
+    		color: $cor-cinza;
     	}
     }
 }
@@ -60,8 +72,7 @@
 .footer {
 	color: $cor-terceira;
 	background: $cor-base;
-	padding-top: 20px;
-	padding-bottom: 40px;
+	padding: 20px 0;
 }
 
 /************************
@@ -226,4 +237,27 @@ TIMELINE
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+.campanha-text {
+	margin-top: 80px;
+	padding-top: 20px;
+	font-size: 18px;
+	p {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+}
+
+.form-horizontal {
+	padding: 30px;
+	background: #e4e4e4;
+}
+
+.mapa {
+	max-width: 870px;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+	margin-bottom: 50px;
 }
