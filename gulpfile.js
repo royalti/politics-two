@@ -10,7 +10,6 @@ var config = {
 		'build/scss/', 
 		'build/js/!(*.min.js)',
 		'build/bower.json',
-		'build/bower_components/',
 		'build/maps/'
 	]
 };
